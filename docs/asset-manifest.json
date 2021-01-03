@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/letter-jam-guesing-sheet/static/css/main.78cc0d91.chunk.css",
-    "main.js": "/letter-jam-guesing-sheet/static/js/main.e0427caf.chunk.js",
-    "main.js.map": "/letter-jam-guesing-sheet/static/js/main.e0427caf.chunk.js.map",
-    "runtime-main.js": "/letter-jam-guesing-sheet/static/js/runtime-main.6a949aff.js",
-    "runtime-main.js.map": "/letter-jam-guesing-sheet/static/js/runtime-main.6a949aff.js.map",
-    "static/js/2.de36e0ac.chunk.js": "/letter-jam-guesing-sheet/static/js/2.de36e0ac.chunk.js",
-    "static/js/2.de36e0ac.chunk.js.map": "/letter-jam-guesing-sheet/static/js/2.de36e0ac.chunk.js.map",
-    "static/js/3.6a5b7dc5.chunk.js": "/letter-jam-guesing-sheet/static/js/3.6a5b7dc5.chunk.js",
-    "static/js/3.6a5b7dc5.chunk.js.map": "/letter-jam-guesing-sheet/static/js/3.6a5b7dc5.chunk.js.map",
-    "index.html": "/letter-jam-guesing-sheet/index.html",
-    "static/css/main.78cc0d91.chunk.css.map": "/letter-jam-guesing-sheet/static/css/main.78cc0d91.chunk.css.map",
-    "static/js/2.de36e0ac.chunk.js.LICENSE.txt": "/letter-jam-guesing-sheet/static/js/2.de36e0ac.chunk.js.LICENSE.txt"
+    "main.css": "/franciskone/letter-jam-guessing-sheet/blob/main/docs/static/css/main.78cc0d91.chunk.css",
+    "main.js": "/franciskone/letter-jam-guessing-sheet/blob/main/docs/static/js/main.e0427caf.chunk.js",
+    "main.js.map": "/franciskone/letter-jam-guessing-sheet/blob/main/docs/static/js/main.e0427caf.chunk.js.map",
+    "runtime-main.js": "/franciskone/letter-jam-guessing-sheet/blob/main/docs/static/js/runtime-main.ca0f14f1.js",
+    "runtime-main.js.map": "/franciskone/letter-jam-guessing-sheet/blob/main/docs/static/js/runtime-main.ca0f14f1.js.map",
+    "static/js/2.de36e0ac.chunk.js": "/franciskone/letter-jam-guessing-sheet/blob/main/docs/static/js/2.de36e0ac.chunk.js",
+    "static/js/2.de36e0ac.chunk.js.map": "/franciskone/letter-jam-guessing-sheet/blob/main/docs/static/js/2.de36e0ac.chunk.js.map",
+    "static/js/3.6a5b7dc5.chunk.js": "/franciskone/letter-jam-guessing-sheet/blob/main/docs/static/js/3.6a5b7dc5.chunk.js",
+    "static/js/3.6a5b7dc5.chunk.js.map": "/franciskone/letter-jam-guessing-sheet/blob/main/docs/static/js/3.6a5b7dc5.chunk.js.map",
+    "index.html": "/franciskone/letter-jam-guessing-sheet/blob/main/docs/index.html",
+    "static/css/main.78cc0d91.chunk.css.map": "/franciskone/letter-jam-guessing-sheet/blob/main/docs/static/css/main.78cc0d91.chunk.css.map",
+    "static/js/2.de36e0ac.chunk.js.LICENSE.txt": "/franciskone/letter-jam-guessing-sheet/blob/main/docs/static/js/2.de36e0ac.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6a949aff.js",
+    "static/js/runtime-main.ca0f14f1.js",
     "static/js/2.de36e0ac.chunk.js",
     "static/css/main.78cc0d91.chunk.css",
     "static/js/main.e0427caf.chunk.js"
