@@ -1,9 +1,15 @@
 .List {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 	list-style-type: none;
+	padding-inline-start: 0;
+	letter-spacing: 1rem;
 }
 
 .Item {
-	background-color: red;
 	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2rem;
+	text-align: center;
 }

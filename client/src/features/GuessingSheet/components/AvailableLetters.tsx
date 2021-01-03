@@ -3,17 +3,18 @@ import { letters } from '../config';
 import STYLE from './AvailableLetters.module.scss';
 
 interface AvailableLettersProps {
-  children?: ReactNode;
+  locale: string;
 }
 
-const localeLetters = letters['it-IT'];
-
-export const AvailableLetters = ({ children }: AvailableLettersProps) => (
-  <ul className={STYLE.List}>
-    {
-      localeLetters.map(letter => (
-        <li className={STYLE.Item} key={letter}>{letter}</li>
-      ))
-    }
-  </ul>
-);
+export const AvailableLetters = ({ locale }: AvailableLettersProps) => {
+	const localeLetters = letters[locale];
+	return (
+		<ul className={STYLE.List}>
+			{
+				localeLetters.map(letter => (
+					<li className={STYLE.Item} key={letter}>{letter}</li>
+				))
+			}
+		</ul>
+	)
+};

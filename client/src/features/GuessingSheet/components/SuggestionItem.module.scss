@@ -1,0 +1,74 @@
+$font-size: 1.2rem;
+$white-item-border: 1px solid #ccc;
+
+.ItemCol {
+	border-radius: 2px;
+	text-align: center;
+	padding-right: 3px;
+	margin-bottom: 5px;
+
+	&:first-child {
+		border: $white-item-border;
+		background-color: #FFFFFF;
+	}
+
+	&:nth-child(2) {
+		background-color: #EFBEBA;
+	}
+
+	&:nth-child(3) {
+		background-color: #F6D4AF;
+	}
+
+	&:nth-child(4) {
+		background-color: #FDEFAB;
+	}
+
+	&:nth-child(5) {
+		background-color: #DDE6AD;
+	}
+
+	&:nth-child(6) {
+		background-color: #C0DCC4;
+	}
+
+	&:nth-child(7) {
+		background-color: #BAD0EA;
+	}
+	&:nth-child(8) {
+		background-color: #D8BFD8;
+	}
+
+	&:nth-child(9) {
+		background-color: #C6C0D8;
+	}
+
+	&:nth-child(10) {
+		background-color: #D1D2D2;
+	}
+
+	&:nth-child(11) {
+		border: $white-item-border;
+		background-color: #FFFFFF;
+	}
+}
+
+.FixedContent {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: $font-size;
+}
+
+.InputContent {
+	width: 90%;
+	background-color: transparent;
+	border: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: $font-size;
+
+	&::placeholder {
+		opacity: 0.5;
+	}
+}

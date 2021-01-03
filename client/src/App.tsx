@@ -1,14 +1,14 @@
 import React from 'react';
-import './App.css';
+import { Container, Row, Col } from 'react-grid-system';
 import { GuessingSheetScreen } from './features/GuessingSheet';
 
 function App() {
-  return (
-    <div>
-      <h1>Letter Jam</h1>
-      <GuessingSheetScreen />
-    </div>
-  );
+	return (
+		<Container>
+			<h1>Letter Jam</h1>
+			<GuessingSheetScreen />
+		</Container>
+	);
 }
 
 export default App;
