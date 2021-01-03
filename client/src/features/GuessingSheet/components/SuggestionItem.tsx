@@ -15,6 +15,7 @@ enum Color {
   GRAY = 'gray',
 }
 interface SuggestionItemProps {
+	type: 'number' | 'text';
   placeholder?: string;
   fixedValue?: string;
   width?: number;
@@ -26,7 +27,8 @@ export const SuggestionItem = (
 		placeholder,
 		fixedValue,
 		width,
-		allowMultipleLetters
+		allowMultipleLetters,
+		type
 	}: SuggestionItemProps
 ) => {
 	const [value, setValue] = useState('');
@@ -37,16 +39,18 @@ export const SuggestionItem = (
 	};
 
 	return (
-		<Col className={STYLE.ItemCol} xs={width ?? 1} style={{ padding: 0 }}>
+		<Col className={STYLE.ItemCol} xs={width ?? 1} style={{ padding: 0,  }}>
 			{fixedValue
 				? <div className={STYLE.FixedContent}>{fixedValue}</div>
-				: <input
-					value={value}
-					onChange={updateValue}
-					className={STYLE.InputContent}
-					type="text"
-					placeholder={placeholder}
-				/>
+				: (
+					<input
+						value={value}
+						onChange={updateValue}
+						className={STYLE.InputContent}
+						placeholder={placeholder}
+						pattern={type === 'number' ? '\\d*' : '*'}
+					/>
+				)
 			}
 
 		</Col>

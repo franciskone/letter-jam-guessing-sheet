@@ -6,6 +6,8 @@ $white-item-border: 1px solid #ccc;
 	text-align: center;
 	padding-right: 3px;
 	margin-bottom: 5px;
+	display: flex;
+	justify-content: center;
 
 	&:first-child {
 		border: $white-item-border;
@@ -60,7 +62,9 @@ $white-item-border: 1px solid #ccc;
 }
 
 .InputContent {
-	width: 90%;
+	padding: 0;
+	min-width: 0;
+	max-width: 95%;
 	background-color: transparent;
 	border: none;
 	text-align: center;

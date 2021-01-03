@@ -8,16 +8,26 @@ interface SuggestionsProps {
 
 export const Suggestions = ({ children }: SuggestionsProps) => (
 	<Row justify="center" style={{ marginBottom: '1rem' }} >
-		<SuggestionItem placeholder="#" />
-		<SuggestionItem placeholder="1" />
-		<SuggestionItem placeholder="2" />
-		<SuggestionItem placeholder="3" />
-		<SuggestionItem placeholder="4" />
-		<SuggestionItem placeholder="5" />
-		<SuggestionItem placeholder="6" />
-		<SuggestionItem placeholder="7" />
-		<SuggestionItem placeholder="8" />
-		<SuggestionItem placeholder="9..." width={3} allowMultipleLetters />
-		<SuggestionItem placeholder="???" width={12} allowMultipleLetters />
+		<SuggestionItem placeholder="#" type="number"/>
+		<SuggestionItem placeholder="1" type="text" />
+		<SuggestionItem placeholder="2" type="text" />
+		<SuggestionItem placeholder="3" type="text" />
+		<SuggestionItem placeholder="4" type="text" />
+		<SuggestionItem placeholder="5" type="text" />
+		<SuggestionItem placeholder="6" type="text" />
+		<SuggestionItem placeholder="7" type="text" />
+		<SuggestionItem placeholder="8" type="text" />
+		<SuggestionItem
+			placeholder="9..."
+			width={3}
+			allowMultipleLetters
+			type="text"
+		/>
+		<SuggestionItem
+			placeholder="???"
+			width={12}
+			allowMultipleLetters
+			type="text"
+		/>
 	</Row>
 );
