@@ -12,7 +12,9 @@ export const AvailableLetters = ({ locale }: AvailableLettersProps) => {
 		<ul className={STYLE.List}>
 			{
 				localeLetters.map(letter => (
-					<li className={STYLE.Item} key={letter}>{letter}</li>
+					<li className={STYLE.Item} key={letter}>
+						{letter}
+					</li>
 				))
 			}
 		</ul>

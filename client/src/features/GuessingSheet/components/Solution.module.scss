@@ -1,0 +1,42 @@
+$font-size: 1.2rem;
+
+.Container {
+	padding: 5px;
+	margin-bottom: 5px;
+	position: sticky;
+	top: 5px;
+	background-color: rgba(255, 255, 255, 0.7);
+	z-index: 10;
+}
+
+.Solution {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1rem;
+	align-items: center;
+}
+
+.Item {
+	width: 2rem;
+	margin-right: 0.5rem;
+
+	&.dark {
+		background-color: #bbb;
+	}
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	input {
+		border: 1px solid #999;
+		border-radius: 3px;
+
+		text-align: center;
+		min-width: 0;
+		max-width: 95%;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: $font-size;
+	}
+}

@@ -7,7 +7,14 @@ interface SuggestionsProps {
 }
 
 export const Suggestions = ({ children }: SuggestionsProps) => (
-	<Row justify="center" style={{ marginBottom: '1rem' }} >
+	<Row
+		justify="center"
+		style={{
+			marginBottom: '1rem',
+			marginRight: 0,
+			marginLeft: 0
+		}}
+	>
 		<SuggestionItem placeholder="#" type="number"/>
 		<SuggestionItem placeholder="1" type="text" />
 		<SuggestionItem placeholder="2" type="text" />

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import STYLE from './SuggestionItem.module.scss';
 import { Col } from 'react-grid-system';
+import { useInput } from '../useLetter';
 
 enum Color {
 	WHITE = 'white',
@@ -27,16 +28,11 @@ export const SuggestionItem = (
 		placeholder,
 		fixedValue,
 		width,
-		allowMultipleLetters,
+		allowMultipleLetters = false,
 		type
 	}: SuggestionItemProps
 ) => {
-	const [value, setValue] = useState('');
-
-	const updateValue = (evt: any) => {
-		const { target: { value } } = evt;
-		setValue(allowMultipleLetters ? value : value.charAt(value.length - 1));
-	};
+	const { value, updateValue } = useInput(allowMultipleLetters);
 
 	return (
 		<Col className={STYLE.ItemCol} xs={width ?? 1} style={{ padding: 0,  }}>
