@@ -1,17 +1,15 @@
 import React from 'react';
-import { Container, Row, Col, Hidden } from 'react-grid-system';
+import { Container, Row } from 'react-grid-system';
 import { GuessingSheetScreen } from './features/GuessingSheet';
 
-function App() {
-	return (
-		<Container>
-			<Row justify="center">
-				<h1>Letter Jam</h1>
-			</Row>
+const App = () => (
+	<Container>
+		<Row justify="center">
+			<h1>Letter Jam</h1>
+		</Row>
 
-			<GuessingSheetScreen />
-		</Container>
-	);
-}
+		<GuessingSheetScreen />
+	</Container>
+);
 
 export default App;

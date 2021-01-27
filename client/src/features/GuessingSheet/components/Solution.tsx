@@ -54,5 +54,4 @@ export const Solution = ({ children }: SolutionProps) => (
 			<Item type='dark' />
 		</div>
 	</div>
-
 );
